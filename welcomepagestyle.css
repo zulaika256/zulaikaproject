@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    background-image:url(images/gif2.gif);
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+.animated-text {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #5f425e;
+    animation: moveText 3s linear infinite;
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+        }
+    50% {
+         transform: translateX(0);
+        }
+    100% {
+        transform: translateX(100%);
+        }
+}
+.gif-container img {
+        max-width: 50%;
+        height: auto;
+}
+.start-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #a77ca3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+.start-button:hover {
+    background-color: #a77ca3;
+    transform: scale(1.1);
+}
+.start-button:active {
+    transform: scale(0.95);
+}

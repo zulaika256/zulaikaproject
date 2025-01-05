@@ -1,0 +1,107 @@
+body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+     background-image: url(images/wallpaper1.jpeg);
+     color: #312f33;
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    background-image: url(images/wallpaper6.jpg);
+    background-size: contain;
+    background-position: center center;
+    height: 20vh;
+    width: 100vw;
+    color: rgb(45, 44, 46);
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/wallpaper7.png);
+    background-size: contain;
+    padding: 0.5rem;
+}
+.navbar a {
+    color: rgb(45, 44, 46);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+.navbar a:hover, .navbar a.active {
+    background: #664d64;
+    background-image: url(images/wallpaper12.jpeg);
+    background-size: cover;
+    color: beige;
+    border-radius: 35px;
+}
+table.education-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table.education-table th, 
+table.education-table td {
+    border: 1px solid #ddd; 
+    text-align: center;
+    padding: 15px;
+}
+table.education-table th {
+    background: #664d64;
+    color: white;
+    font-size: 1rem;
+}
+table.education-table tr:hover {
+    background-color: #f1f1f1; 
+}
+table.education-table td img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+table.education-table {
+    border-collapse: separate; 
+    border-spacing: 0; 
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px; 
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+section h2 {
+    font-size: 1.8rem;
+    color: #664d64;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+    margin: 10px 20px;
+    padding-left: 20px;
+}
+ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #664d64;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+footer a:hover {
+    background: #312f33;
+}

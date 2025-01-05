@@ -1,0 +1,103 @@
+body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+     background-image: url(images/wallpaper1.jpeg);
+     color: #312f33;
+}
+header {
+     text-align: center;
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 1rem;
+     background-image: url(images/wallpaper6.jpg);
+     background-size: contain;
+     background-position: center center;
+     height: 20vh;
+     width: 100vw;
+     color: rgb(45, 44, 46);
+}
+.navbar {
+     display: flex;
+     justify-content: center;
+     background-image:url(images/wallpaper7.png);
+     background-size: contain;
+     padding: 0.5rem;
+}
+.navbar a {
+     color: rgb(45, 44, 46);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     margin: 0 0.5rem;
+}
+.navbar a:hover, .navbar a.active {
+     background: #664d64;
+     background-image: url(images/wallpaper12.jpeg);
+     background-size: contain;
+     color: beige;
+     border-radius: 35px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+.travel-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.travel-table th, 
+.travel-table td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.travel-table th {
+    background-color: #664d64;
+    color: white;
+    border-radius: 10px;
+}
+.travel-table td {
+    background-color: #fdf3f0;
+}
+.travel-table tr:hover {
+    background-color: #fde8e5;
+}
+.map img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 60%;
+}
+h2{
+    color: #664d64;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}

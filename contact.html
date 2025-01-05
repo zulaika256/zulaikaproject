@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Zulaika</title>
+    <link rel="icon" type="image/png" href="images/icon7.png">
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+<body>
+<header>
+    <h1>Contact Me</h1>
+</header>
+
+<div class="navbar">
+    <a href="biodata.html">Biodata</a>
+    <a href="education.html">Education</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="experience.html">Experience</a>
+    <a href="travel.html">Travel</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="gallery.html">Gallery</a>
+</div>
+
+<div class="container">
+    <section class="section-container">
+        <h4 style="font-family: 'Times New Roman', Times, serif;">
+            Feel free to connect with me through the platforms below. Whether it's for professional inquiries,
+            collaborations, or just to say hello, I'm always happy to connect!
+        </h4>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="images/instagram.png" alt="Instagram">
+                <a href="https://www.instagram.com/z2ula" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com/z2ula" target="_blank">Facebook</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/tiktok.png" alt="TikTok">
+                <a href="https://www.tiktok.com/@z2ula" target="_blank">TikTok</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/whatsapp.png" alt="WhatsApp">
+                <a href="https://wa.me/60182505922" target="_blank">WhatsApp</a>
+            </div>
+            <div class="contact-item">
+                <img src="images/email.png" alt="Email">
+                <a href="mailto:zulaikafatin256@gmail.com">Email</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    const contactItems = document.querySelectorAll('.contact-item');
+    
+    contactItems.forEach(item => {
+        item.addEventListener('mouseover', function() {
+            item.style.transform = 'scale(1.1)';
+            item.style.transition = 'transform 0.3s ease';
+        });
+
+        item.addEventListener('mouseout', function() {
+            item.style.transform = 'scale(1)';
+        });
+    });
+</script>
+</body>
+</html>
+

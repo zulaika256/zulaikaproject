@@ -1,0 +1,123 @@
+body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+     background-image: url(images/wallpaper1.jpeg);
+     color: #312f33;
+}
+header {
+     text-align: center;
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 1rem;
+     background-image: url(images/wallpaper6.jpg);
+     background-size: contain;
+     background-position: center center;
+     height: 20vh;
+     width: 100vw;
+     color: rgb(45, 44, 46);
+}
+.navbar {
+     display: flex;
+     justify-content: center;
+     background-image: url(images/wallpaper7.png);
+     background-size: contain;
+     padding: 0.5rem;
+}
+.navbar a {
+     color: rgb(45, 44, 46);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     margin: 0 0.5rem;
+}
+.navbar a:hover, .navbar a.active {
+     background: #664d64;
+     background-image: url(images/wallpaper12.jpeg);
+     background-size: contain;
+     color: beige;
+     border-radius: 35px;
+}
+.container {
+     width: 100%;
+     max-width: 800px;
+     margin: 2rem auto;
+     background: white;
+     padding: 1.5rem;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+}
+section {
+     margin-bottom: 2rem;
+}
+section h2 {
+     font-size: 1.8rem;
+     margin-bottom: 1rem;
+     color: #664d64;
+}
+section img {
+     max-width: 100%;
+     border-radius: 8px;
+     margin: 1rem 0;
+     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.video-gallery {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    align-items: center; 
+    margin-top: 20px;
+}
+.video-card {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 90%; 
+    max-width: 400px; 
+    text-align: center;
+}
+.video-card video {
+    width: 100%; 
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+}
+.video-card h4 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 5px;
+}
+.video-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+ul, ol {
+     margin: 1rem 0;
+     padding-left: 1.5rem;
+}
+ul li, ol li {
+     margin-bottom: 0.5rem;
+}
+.game-images a {
+     display: inline-block;
+     margin: 0.5rem;
+     border-radius: 8px;
+     overflow: hidden;
+     transition: transform 0.3s;
+}
+.game-images a:hover {
+     transform: scale(1.05);
+}
+.game-images img {
+     max-width: 100%;
+     border-radius: 8px;
+}
+h3{
+     color: #664d64;
+}
+p{
+     font-family: 'Times New Roman', Times, serif;
+}
